@@ -1,0 +1,14 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class AddThirteen {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please enter a number.");
+        int num1 = scan.nextInt();
+        System.out.println(num1 + 13 );
+
+    }
+}
